@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/.vscodeprofile": true,
+        // this excludes the folder
+        // named ".vscodeprofile" from
+        // the explore tree
+        "**/node_modules": true,
+        // this excludes all folders 
+        // named "node_modules" from 
+        // the explore tree
+        "node_modules": true,
+        // this excludes the folder 
+        // only from the root of
+        // your workspace
+        //"**/dist": true
+        // this excludes the folder
+        // named ".dist" from
+        // the explore tree
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    }
+}
